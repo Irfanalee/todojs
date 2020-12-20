@@ -17,3 +17,8 @@ Source : https://www.youtube.com/watch?v=Ttf3CEsEwMQ&ab_channel=DevEd
         >git push r-name
         >git push --set-upstream r-name feature/branch
         ```
+## Day 2
+    * CSS Coding 0920 -> 1450
+    * Learning
+        * Body Header customization text and color
+        * Form customization input and button
