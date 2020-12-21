@@ -36,3 +36,5 @@ Source : https://www.youtube.com/watch?v=Ttf3CEsEwMQ&ab_channel=DevEd
     * css 
         *  .classname from the js file 
            *    Use this to customize the elements of that element in HTML file.  
+## Day 4 
+    * 3830
