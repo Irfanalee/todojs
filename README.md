@@ -40,3 +40,5 @@ Source : https://www.youtube.com/watch?v=Ttf3CEsEwMQ&ab_channel=DevEd
     * 3830
 ## Day 5
     *5000
+## Day 6
+    *5600
