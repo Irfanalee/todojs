@@ -68,7 +68,29 @@ function deleteCheck(e){
 }    
 function filtertodo(e){
     const todos = todoList.childNodes;
-    console.log(todos);
+    
+    todos.forEach(function(todo) {
+        switch (e.target.value) {
+            case "all":
+                todo.style.display = "flex";
+                break;
+            case "completed":
+                if(todo.classList.contains("completed")){
+                    todo.style.display = "flex";
+                } else {
+                    todo.style.display = "none";
+                }
+                break;
+            case "pending":
+                if(!todo.classList.contains("completed")){ // doesnt contain completed
+                    todo.style.display = "flex";
+                } else {
+                    todo.style.display = "none";
+                }
+                break;
+            
+        }
+    });
 
 }
 
